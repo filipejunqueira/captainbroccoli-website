@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import AnimatedSection from "./common/AnimatedSection";
-import { Github, Mail, Linkedin } from "lucide-react"; // Added Linkedin as an example, can remove if not needed
+import { Github, Mail } from "lucide-react"; // Added Linkedin as an example, can remove if not needed
 
 // Define structure for contact methods
 interface ContactMethod {
