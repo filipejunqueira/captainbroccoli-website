@@ -1,5 +1,5 @@
 // src/components/common/AnimatedSection.tsx
-import React, { ReactNode, useEffect } from "react";
+import React, { useEffect } from "react";
 import type { ReactNode } from "react";
 // REMOVE 'Variants' from this import line:
 import { motion, useAnimation } from "framer-motion";
