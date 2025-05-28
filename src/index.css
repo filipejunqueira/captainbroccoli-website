@@ -1,0 +1,10 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add any global base styles or custom component styles below if needed */
+body {
+  @apply bg-honeydew-bg text-olive-text font-sans antialiased;
+  scroll-behavior: smooth; /* For smooth scrolling on anchor links */
+}
