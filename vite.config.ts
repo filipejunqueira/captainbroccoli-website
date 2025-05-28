@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 // Replace '<repository-name>' with your GitHub repository name
-const repositoryName = "dota2-portfolio"; // Or whatever your repo is called
+const repositoryName = "captainbroccoli-website"; // Or whatever your repo is called
 
 export default defineConfig({
   plugins: [react()],

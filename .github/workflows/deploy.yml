@@ -30,7 +30,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4 # Use the latest major version
         with:
-          node-version: "20" # Or your preferred Node.js version (e.g., 22 if that's what you settled on with nvm)
+          node-version: "22" # Or your preferred Node.js version (e.g., 22 if that's what you settled on with nvm)
           cache: "npm"
 
       - name: Install dependencies
