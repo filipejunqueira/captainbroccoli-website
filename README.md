@@ -54,3 +54,10 @@ export default tseslint.config({
 ```
 # dota2-portfolio
 # captainbroccoli-website
+
+---
+
+Claude switched this repository to SSH on 2026-09-13. Its origin was an HTTPS URL, which
+cannot push from the user's claude-sandbox container: no credential helper, a different
+HOME, and no tty to ask for anything. The original URL is recorded in the user's
+claude-config repository at notes/remote-urls-before-2026-09-13.txt.
